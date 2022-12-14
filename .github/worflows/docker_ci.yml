@@ -11,4 +11,4 @@ jobs:
     steps:
       -
       name: simple echo
-      run: echo main
+      run: echo hello_world
