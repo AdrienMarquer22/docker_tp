@@ -1,0 +1,14 @@
+name: docker_ci
+
+on:
+  push:
+    branches:
+      -"main"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -
+      name: simple echo
+      run: echo main
